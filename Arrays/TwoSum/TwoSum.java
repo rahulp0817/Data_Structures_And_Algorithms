@@ -2,6 +2,9 @@
 
 package Arrays.TwoSum;
 
+// Solved using brute force
+// Can be solved using brute force O(n2) and two-pointers O(n)
+
 public class TwoSum {
   public int[] twoSum(int[] nums, int target) {
     for (int i = 0; i < nums.length; i++) {
