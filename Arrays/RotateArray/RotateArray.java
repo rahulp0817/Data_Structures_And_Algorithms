@@ -1,7 +1,7 @@
-// Leetcode 189
+//  Leetcode 189
 // Time Complexity O(n)
-
-class Solution {
+package Arrays.RotateArray;
+class RotateArray {
     public void rotate(int[] nums, int k) {
         int i = nums.length;
         k = k % i;
