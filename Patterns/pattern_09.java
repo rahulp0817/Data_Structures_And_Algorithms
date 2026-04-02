@@ -6,7 +6,7 @@ public class pattern_09 {
       for (int j = 0; j < 5 - i - 1; j++) { // space
         System.out.print(" ");
       }
-      for (int j = 0; j < 2 * i + 1; j++) { // star 2n-()
+      for (int j = 0; j < 2 * i + 1; j++) { // star 2*i+1
         System.out.print("*");
       }
       for (int j = 0; j < 5 - i - 1; j++) { // space
@@ -20,7 +20,7 @@ public class pattern_09 {
       for (int j = 0; j < i; j++) { // space
         System.out.print(" ");
       }
-      for (int j = 0; j < 2 * 5 - (2 * i + 1); j++) { // star 2n-()
+      for (int j = 0; j < 2 * 5 - (2 * i + 1); j++) { // star 2n-(2*i+1)
         System.out.print("*");
       }
       for (int j = 0; j < i; j++) { // space
@@ -33,13 +33,13 @@ public class pattern_09 {
 }
 
 // Output:
-//     *    
-//    ***   
-//   *****  
-//  ******* 
+// *
+// ***
+// *****
+// *******
 // *********
 // *********
-//  ******* 
-//   *****  
-//    ***   
-//     *  
+// *******
+// *****
+// ***
+// *
