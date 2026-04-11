@@ -1,4 +1,4 @@
-package Arrays.BuySellStock;
+package Sliding_Window.Dynamic_Window.BuySellStock;
 
 public class BuySellStock {
   public int maxProfit(int[] prices) {
