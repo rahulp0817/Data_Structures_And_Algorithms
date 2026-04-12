@@ -2,7 +2,7 @@
 // Two pointers method
 // Time complexity - O(n)
 
-package Arrays.MoveZeros;
+package Arrays;
 
 class MoveZeros {
     public void moveZeroes(int[] nums) {
