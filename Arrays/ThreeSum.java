@@ -1,6 +1,6 @@
 // Leetcode 15
 
-package Arrays.ThreeSum;
+
 
 import java.util.ArrayList;
 import java.util.Arrays;

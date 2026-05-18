@@ -2,8 +2,6 @@
 // Two pointers method
 // Time complexity - O(n)
 
-package Arrays;
-
 class MoveZeros {
     public void moveZeroes(int[] nums) {
         if (nums == null) return;

@@ -1,6 +1,6 @@
 // Leetcode 1
 
-package Arrays.TwoSum;
+package TwoSum;
 
 // Solved using brute force
 // Can be solved using brute force O(n2), two-pointers O(n) and HashMap O(n)

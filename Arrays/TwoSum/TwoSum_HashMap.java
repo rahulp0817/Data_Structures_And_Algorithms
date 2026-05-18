@@ -1,6 +1,6 @@
-package Arrays.TwoSum;
+package TwoSum;
 
-import java.util.HashMap;
+import java.util.*;
 
 public class TwoSum_HashMap {
 

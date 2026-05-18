@@ -1,7 +1,7 @@
-package Strings.ReverseString;
+package ReverseString;
 
 public class ReverseString {
-  public void reverseString(char[] s) {
+    public void reverseString(char[] s) {
         int left = 0;
         int right = s.length - 1;
 

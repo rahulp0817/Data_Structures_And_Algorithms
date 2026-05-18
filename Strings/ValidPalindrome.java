@@ -1,4 +1,4 @@
-package Strings.ValidPalindrome;
+
 
 public class ValidPalindrome {
   public boolean isPalindrome(String s) {

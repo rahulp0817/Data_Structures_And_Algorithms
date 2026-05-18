@@ -1,0 +1,38 @@
+package Stack;
+
+import java.util.ArrayDeque;
+import java.util.Deque;
+
+public class Daily_Temperatures {
+  class Solution {
+    public int[] dailyTemperatures(int[] temperatures) {
+
+      int n = temperatures.length;
+      int[] result = new int[n];
+      Deque<Integer> stack = new ArrayDeque<>();
+
+      // store indices in stack
+      for (int i = n - 1; i >= 0; i--) {
+
+        while (!stack.isEmpty() && temperatures[stack.peek()] <= temperatures[i]) {
+          stack.pop();
+        }
+
+        // after pop stack becomes empty check
+        if (stack.isEmpty()) {
+          result[i] = 0;
+        } else {
+          result[i] = stack.peek() - i;
+        }
+
+        stack.push(i);
+      }
+
+      return result;
+    }
+  }
+
+}
+
+// Time Complexity: O(n)
+// Space Complexity: O(n)
